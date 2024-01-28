@@ -37,8 +37,8 @@
     outline: none;
     margin-right: 8px;
 }
-.container-input input::placeholder{
-    color: rgba(255, 0, 255, 0.067);
+.container-input input:placeholder{
+    color: rgb(255, 0, 0);
 }
 
 .buttonSearch{
@@ -88,5 +88,11 @@
     .main{
         width: 80%;
         min-width: 250px;
+    }
+}
+
+@media (max-width: 412px){
+    .container-main{
+        width: 90%;
     }
 }
